@@ -8,7 +8,7 @@ This Docker image can be use for auto streaming video files to rtmp server. Usin
 # Usage
 To run the server
 ```
-docker run -d -v {your video directory}:/video -e STREAM_URL={streaming url} -e STREAM_KEY={streaming key}  huiping192/video_rrtmp_publish:0.04
+docker run -d -v {your video directory}:/video -e STREAM_URL={streaming url} -e STREAM_KEY={streaming key}  huiping192/video_rtmp_publish
 ```
 
 # Copyright
